@@ -31,6 +31,11 @@
   * example is : localhost:3000/foldername/anyname  = first dynamic name 
     example 2 is : loclahost:3000/foldername/anyname/anyname = see the 2nd routung name 
 
+    #### Catch all Dynamic Router
+
+   * using [...name]   = using the spread operator before the name that's why next detect that it is dynamic routing and if you use any / slas any word or any letter then it go to the same pages 
+   
+
 
 
       
