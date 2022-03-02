@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -12,11 +13,34 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+   
+   {/* routing setup with navigation menu  */}
 
-      <main className={styles.main}>
+   <ul>
+          <li>
+            <Link href='/about'>About</Link>
+          </li>
+          <li>
+            <Link href='/blog'>Blog</Link>
+          </li>
+          <li>
+            <Link href='/portfolio'>Portfolio</Link>
+          </li>
+          <li>
+            <Link href='/post'>Posts</Link>
+          </li>
+      </ul>
+
+
+
+      <main >
         <h1 className={styles.title}>
-          Welcome to Home Page
+          Welcome to Ehsan Marketing 
         </h1>
+
+
+
+
 
       </main>
 
