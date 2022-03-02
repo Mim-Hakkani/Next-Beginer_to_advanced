@@ -55,7 +55,7 @@
           }
         }>
 
-    #### See one place to another using button method
+  #### See one place to another using button method
 
     * step 1: create a button or any linkup tag or text 
     * step 2: setup the onclick method on the buttomn or text 
@@ -64,7 +64,14 @@
         const router = useRouter()
 
         router.push('/file or folder name/ if i use dynamic route') 
-         
+
+        or 
+
+        router.push({
+           pathname:'/name/foldername',
+           query:{dynamic_id_name : 'name as i wish'}
+        })
+
 
    
 
