@@ -55,6 +55,17 @@
           }
         }>
 
+    #### See one place to another using button method
+
+    * step 1: create a button or any linkup tag or text 
+    * step 2: setup the onclick method on the buttomn or text 
+    * step 3: create a function in my code and just write in  
+
+        const router = useRouter()
+
+        router.push('/file or folder name/ if i use dynamic route') 
+         
+
    
 
 
