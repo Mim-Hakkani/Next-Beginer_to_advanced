@@ -39,6 +39,12 @@
 
      * step 1: inport Link from nextjs 
      * step 2: create a <Link href="/page_name">  then close the Link Tag 
+
+   #### Dynamic Link show using dynamiccally 
+
+    * step 1: normally it is used in fetch data to show single items 
+    * step 2: <Link href={`clints/${clint.id}/`}> use `` batic and ${}
+      then push the id of inside it 
       
    
 

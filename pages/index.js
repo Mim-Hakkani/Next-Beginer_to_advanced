@@ -29,6 +29,10 @@ export default function Home() {
           <li>
             <Link href='/post'>Posts</Link>
           </li>
+
+          <li>
+            <Link href='/clints'>Clints</Link>
+          </li>
       </ul>
 
 
