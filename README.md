@@ -12,7 +12,14 @@
 
       if ami index.js  bade onno kono file rakhi then  
 
-      localhost:3000/folder_name/file_name 
+      localhost:3000/folder_name/file_name
+
+#### Dynamic Routing 
+  * step:1 create  a folder that have index.js and [name].js 
+  * step:2 use the useRouter hook and notice that function name is always uppercase lettter otherwise it gives us error 
+  * step:3  const router =useRouter   const{name} =router.query 
+  * finally show the output  foldername / number
+  
 
 
       
