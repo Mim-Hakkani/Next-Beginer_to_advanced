@@ -34,6 +34,12 @@
     #### Catch all Dynamic Router
 
    * using [...name]   = using the spread operator before the name that's why next detect that it is dynamic routing and if you use any / slas any word or any letter then it go to the same pages 
+
+   #### Link in Nextjs
+
+     * step 1: inport Link from nextjs 
+     * step 2: create a <Link href="/page_name">  then close the Link Tag 
+      
    
 
 
