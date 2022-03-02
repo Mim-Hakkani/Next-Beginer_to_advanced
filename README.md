@@ -18,8 +18,8 @@
   * step:1 create  a folder that have index.js and [name].js 
   * step:2 use the useRouter hook and notice that function name is always uppercase lettter otherwise it gives us error 
   * step:3  const router =useRouter   const{name} =router.query 
-  * finally show the output  foldername / number
-  
+  * finally show the output  foldername / number   example : localhost:3000/post/121
+
 
 
       
