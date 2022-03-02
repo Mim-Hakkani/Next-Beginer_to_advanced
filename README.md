@@ -73,6 +73,11 @@
         })
 
 
+#### 404 page edit 
+
+ * step 1: create a 404 page in pages folder 
+ * step 2 : Edit it what i have want to use 
+
    
 
 
