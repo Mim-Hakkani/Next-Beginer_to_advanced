@@ -21,5 +21,16 @@
   * finally show the output  foldername / number   example : localhost:3000/post/121
 
 
+  #### Nested Dynamic Routing 
+
+  * step : create a folder name and create a file name index.js
+  * step2: create a dynamic routing folder name such as example is : [id]
+  * step3: inside the folder create a index.js file  and using the dynamic file structure top of the section 
+  * step4: if it is a nested dynamic routuong then i use the another [name].js file inside the [id] folder 
+  * step6: finally same as dynamic routing process 
+  * example is : localhost:3000/foldername/anyname  = first dynamic name 
+    example 2 is : loclahost:3000/foldername/anyname/anyname = see the 2nd routung name 
+
+
 
       
